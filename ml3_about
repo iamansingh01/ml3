@@ -1,0 +1,36 @@
+# Activation Functions :- 
+
+1.Linear or Identity Activation Function
+  the output of the functions will not be confined between any range.
+
+2.Non-linear Activation Function
+  a. Sigmoid or Logistic Activation Function
+      predict the probability as an output
+      range of 0 and 1
+
+  b. Tanh or hyperbolic tangent Activation Function
+      range of the tanh function is from (-1 to 1)
+      The advantage is that the negative inputs will be mapped strongly negative and the zero inputs will be mapped near zero in the tanh graph
+
+  c. ReLU (Rectified Linear Unit) Activation Function
+      Range: [ 0 to infinity)
+      ReLU is half rectified (from bottom)
+
+  d. Leaky ReLU
+      The leak helps to increase the range of the ReLU function
+      range of the Leaky ReLU is (-infinity to infinity)
+
+
+# Optimizers :-
+
+1.Gradient Descent
+2.Stochastic Gradient Descent
+3.Mini-Batch Gradient Descent
+4.Momentum
+5.Nesterov Accelerated Gradient
+6.Adagrad
+7.AdaDelta
+8.Adam
+9.RMSProp
+  Root mean square propogation
+  faster optimizer in neural network
